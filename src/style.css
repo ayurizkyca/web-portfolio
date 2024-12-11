@@ -1,0 +1,534 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Poppins:wght@100;200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Inter:wght@100;300;500;800&family=Poppins:wght@100;200;700&display=swap');
+
+/* *{
+    margin: 0%;
+    font-family: 'Poppins', sans-serif;
+    padding: 0;
+    margin: 0;
+} */
+
+/* body{
+    padding : 0%;
+    margin: 0%;
+    overflow-x: hidden;
+} */
+
+/* .relative{
+    position: relative;
+} */
+
+/* Header */
+.header{
+    height : 80px;
+    width : 100%;
+    background-color : #1E1E1E;
+    box-shadow : 0px 5px 5px #009418;
+    position: fixed;
+    top: 0;
+}
+
+.navbar {
+    align-items: center; 
+    display : flex;
+    justify-content: space-around;
+    padding : 10px;
+    
+}
+
+.navbar li{
+    display : inline;
+    font-family: poppins;
+}
+
+.navbar ul{
+    display: flex;
+}
+
+.navbar a{
+    font-size: 1.25rem;
+    font-weight: 400;
+    color : #D9D9D9;
+    text-decoration : none;
+    padding : 20px;
+}
+
+
+/* Home */
+.home-sec h3{
+    margin: 20px 0px 0px 0px;
+    font-family: poppins;
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
+.home-sec{
+    background-color : #1E1E1E;
+    display : flex;
+    justify-content: space-between;
+    padding : 0rem 10vh;
+    color: white;
+} 
+
+.home-sec .sosmed a{
+    margin: 2vw 2vw 2vw 2vw;
+}
+
+.sec-desc{
+    flex-direction: column;
+    display : flex;
+    justify-content: center;
+}
+
+/* About */
+
+.sec-about{
+    padding: 7em 0em 2em 0em;
+    display : flex;
+    background-color: #141815;
+    color : white;
+}
+
+/* Works */
+.sec-works{
+    padding: 0em 7em;
+    text-align: end;
+}
+
+/* Contact */
+.contacts{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 6%;
+}
+
+.contact{
+    text-align: center;
+    padding: 30px;
+}
+
+.contact p{
+    padding-top: 10px;
+}
+
+.sec-contact{
+    background-color: #141815;
+    padding: 12em 0em 2em 0em;
+    color : white;
+}
+
+.sec-contact h1{
+    text-align: center;
+}
+
+.sec-contact h3{
+    font-size: 40px;
+    font-family: poppins;
+    font-weight: 300;
+    color: #009418;
+    padding-left: 50px;
+}
+
+/* Bussiness Card */
+.bussiness-card{
+    display: none;
+}
+
+
+/* Footer */
+.footer{
+    color: black;
+    background-color: #009418;
+    padding: 2vh 4vw;
+}
+
+.footer a{
+    color: black;
+    text-decoration: none;
+    font-family: inter, poppins;
+    font-weight: 500;
+}
+
+.footer p{
+    font-family: inter, poppins;
+    font-size: 20;
+    font-weight: 300;
+}
+
+.footer ul, .footer li{
+    padding: 0% 2% 0% 0%;
+    display: inline;
+}
+
+.footer a:hover{
+    color: yellowgreen;
+}
+
+main{
+    background-color: #141815;
+    /* padding-top : 3.5em; */
+    color : white;
+}
+
+/* main[class='works-page']{
+    background-color: #141815;
+    padding: 7em 0em 2em 0em;
+    color : white;
+    background-image: url("/assets/img/things-done.png");
+    background-position: 80% 8%;
+    background-repeat: no-repeat;
+} */
+
+
+
+p{
+    font-family: inter, poppins;
+    font-size: clamp(1rem,2vw,1.25rem);
+    font-weight: 100;
+}
+
+h2{
+    font-size: clamp(1.5rem,20vw,2.8rem);
+    font-weight: bold;
+    font-family: inter, poppins;
+}
+
+
+
+button{
+    color : white;
+    padding : 10px 21px;
+    border-radius : 5px;
+    font-weight: 700;
+    font-family: inter, poppins;
+    font-size: clamp(1rem, 5vw, 1.3rem);
+    border: none;
+}
+
+button[class="primary"]{
+    background-color : #009418;
+}
+
+button[class="secondary"]{
+    background-color: rgb(0, 148, 24, 0);
+    border: 0.15rem solid #009418;
+    
+}
+
+
+
+.land-sec2{
+    background-color: #141815;
+    background-image: url("/assets/img/about-me.png");
+    background-position: 52% 25% ;
+    background-repeat: no-repeat;
+    padding: 50px;
+    display : flex;
+}
+
+.land-sec3{
+    background-color: #1E1E1E;
+    background-image: url("/assets/img/my-works.png");
+    background-position: 90% 5%;
+    background-repeat: no-repeat;
+    padding: 5vw;
+}
+
+.land-sec3 h1{
+    text-align: end;
+}
+
+
+.content{
+    flex-direction: column;
+    display : flex;
+    justify-content: center;
+    padding: 5% 10%;
+}
+
+/* .sec-projects{
+    padding: 3em 0em;
+} */
+
+
+/* .sec-desc2{
+    flex-direction: column;
+    display : flex;
+    justify-content: space-evenly;
+    padding: 2vw;
+} */
+
+.c-sosmed button{
+    margin: 0px 80px 0px 0px;
+}
+
+.c-sosmed{
+    display: flex;
+    margin: 50px 0px;
+}
+
+
+
+/* .works-page .cardInteres{
+    margin: 5vh 5vw;
+} */
+
+.cardInteres{
+    padding: 5vh 5vw;
+    background-color: rgb(0, 148, 24, 0.1);
+    /* margin: 5vh 5vw; */
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.cardInteres h3{
+    font-weight: 800;
+    font-size: clamp(1rem, 5vw, 1.75rem);
+}
+
+.title-interes{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* main h1{
+    color:#009418;
+    font-family: inter, poppins;
+    font-weight: 900;
+    font-size: clamp(1.4rem, 8vw, 3rem);
+} */
+
+footer h1{
+    font-family: poppins;
+    font-size: clamp(1.4rem, 6vw, 3rem);
+    font-weight: 700;
+    margin: 25px 0px;
+}
+
+
+.desc-about{
+    padding: 2vw;
+    text-align: center;
+    flex-direction: column;
+    display : flex;
+    justify-content: space-evenly;
+
+}
+
+.desc-about h1, .desc-about p{
+    text-align: center;
+}
+
+.cards{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    
+}
+
+.card{
+    text-align: center;
+    padding: 2vw;
+    margin: 2px 5px;
+    background-color: #141815;
+    color: #009418;
+    box-shadow: 0px 0px 4px rgba(0, 148, 24, 1);
+}
+
+
+.sosmeds{
+    margin: 30px 0px 0px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sosmed a{
+    margin: 2vw 2vw 2vw 0vw;
+}
+
+
+
+.project{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: solid rgb(0, 148, 24, 0.5); */
+    margin: 2% 4%;
+}
+
+/* .img-project{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */
+
+/* .img-project img{
+    width: 70%;
+} */
+
+/* .desc-project{
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    margin: 5% 5%;
+} */
+
+
+
+img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.img-center{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0vw 2vw;
+}
+
+.menu-toggle{
+    justify-content: space-between;
+    height: 20px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    display: none;
+}
+
+.menu-toggle input{
+    position: absolute;
+    width: 40px;
+    height: 28px;
+    opacity: 0;
+    left: -5px;
+    top: -4px;
+    cursor: pointer;
+    z-index: 2;
+}
+
+.menu-toggle span{
+    width: 28px;
+    height: 5px;
+    background-color: #D9D9D9;
+    border-radius: 3px;
+    transition: all 0.5s;
+}
+
+/* Hamburger menu Animation */
+.menu-toggle span:nth-child(2){
+    transform-origin: 0 0;
+}
+
+.menu-toggle span:nth-child(4){
+    transform-origin: 0 100%;
+}
+
+.menu-toggle input:checked ~ span:nth-child(2){
+    transform: rotate(45deg) translate(1px, -3px);
+}
+
+.menu-toggle input:checked ~ span:nth-child(4){
+    transform: rotate(-45deg) translate(1px, 3px);
+}
+
+.menu-toggle input:checked ~ span:nth-child(3){
+    transform: scale(0);
+}
+
+.navbar ul.slide{
+    transform: translateX(0);
+}
+
+input{
+    border-radius: 10px;
+    height: 60px;
+    width: clamp();
+}
+
+label{
+    font-size: clamp(2rem, 20px, 5rem);
+    color: #009418;
+
+}
+
+.div-form{
+    display: flex;
+    flex-direction: column;
+}
+
+form{
+    padding: 2vw 10vw;
+
+}
+
+
+/*Tampilan Mobile*/
+@media only screen and (max-width : 768px){
+    *{
+        justify-content: center;
+        align-items: center;
+    }
+    .sec-about, .sec-contact, .sec-works , .home-sec, .header, .footer{
+        display: none;
+    }
+    .bussiness-card{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: solid #2CBE9B;
+        border-radius: 20px;
+    }
+    .card-contacts div{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+    .card-contacts img{
+        width: 20px;
+        height: 20px;
+    }
+    .img-card{
+        height: 250px;
+        width: 200px;
+        margin: 10px;
+    }
+    .img-card img{
+        border-radius: 10px;
+    }
+    .bc-desc{
+        margin: 20px;
+    }
+    .bc-contact{
+        justify-content: start;
+    }
+}
+
+/* Tampilan lebih besar dari handphone */
+
+@media only screen and (max-width : 1080px) and (  min-width : 769px){
+    .sosmeds{
+        flex-direction: column;
+        align-items: start;
+    }
+
+    .sec-about .sosmeds{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .sosmed{
+        padding-top: 5vh;
+    }
+
+    .cardInteres{
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+}
